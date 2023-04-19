@@ -1,0 +1,1022 @@
+/*estilo de las listas, fuente de las letras*/
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+/* color de fondo de la pagina y su tamaño*/
+.main{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*color de fondo de la barra de arriba, tamaño y distribucion de los elementos*/
+.navegacion{
+    
+    background-color: rgb(40, 40, 40);
+    width: 100%;
+    height: 50%;
+    padding: 20 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
+
+/*tamaño de las letras de los enlaces,color, sus posiciones y rellenos */
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-weight: 600px;
+    background-color: rgb(40, 40, 40) ;
+    padding: 15px 15px;
+
+}
+/*posicion de la imagen de banco falabella*/
+.imagen_banner{
+    position:relative;
+    right: -130px;
+
+}
+/*color del fondo, tamaño, alineacion*/
+.banner{
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    padding: 10 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+/*tamaño de las letras de los enlaces,color, sus posiciones y rellenos */
+.banner a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    padding: 15px 15px;
+    align-self: center;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha y arriba está)*/
+.mi_cuenta {
+        background-color: green;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 15px;
+        transition-duration: 0.4s;
+        position:relative;
+        right: -810px;
+        top: -57px;
+    
+}
+/*color de la animacion del boton*/
+.mi_cuenta:hover{
+    
+        background-color: greenyellow; 
+        color: white;
+
+}
+
+/*diseño del cuadro. color de fondo, alineacion de texto bordes,
+tamaño de letra, color del borde*/
+.credito{
+    background-color: whitesmoke;
+    text-align:center;
+    border: 1px solid gray ;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+
+/*tamño de letra, alineacion y su relleno*/
+.credito input{
+
+    padding:5px 200px  ;
+    font-size: 15px;
+    align-self: start;
+}
+/*posicion, tamaño de letra y su relleno*/
+.credito label{
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+    padding:5px 50px  ;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+.simular{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position:relative;
+    right: -95px;
+}
+/*color de la animacion del boton*/
+.simular:hover{
+    
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*posicion hacia la derecha*/
+#consumo{
+    position: relative;
+    left: -100px;
+}
+
+/*tamaño de las tarjetas y como mantendran escondidas cuando sobre*/
+#contentItemsCarrusel{
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+/*tamaño en el que estaran los itmes y su posision en el carrusel*/
+.itemCarrusel{
+    height: 500px;
+    position: relative;
+}
+
+/*tamaño de las tarjetas*/
+.tarjetaCarrusel{
+    height: 100%;
+}
+
+/*diseño de las flechitas de los carruseles*/
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+/*Diseño de la imagen
+(tamaño, posicion: derecha, izquierda, arriba y abajo)*/
+#imagen-1{
+    height: 350px;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    right: -500px;
+}
+/*como sera el contenido de la tarjeta del carrusel
+(color de fondo, y su posicion)*/
+#tarjetaCarrusel-1{
+    background-color: white;
+    right: -250px;
+    position: relative;
+}
+/*tamaño de las letra y sus posiciones  */
+#texto-1{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -255px;
+}
+
+/*tamaño de las letra,color y sus posiciones  */
+#texto-2{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -250px;
+    color:gray;
+}
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha y arriba está)*/
+.boton-clik{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position:relative;
+    right: -500px;
+    top: -200px;
+}
+/*color de la animacion del boton*/
+.boton-clik:hover{  
+        background-color: greenyellow; 
+        color: white;
+    }
+
+/*Diseño de la imagen
+(tamaño, posicion: derecha, izquierda, arriba y abajo)*/
+#imagen-2{
+    height: 350px;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    right: -500px;
+}
+/*como sera el contenido de la tarjeta del carrusel
+(color de fondo, y su posicion)*/
+#tarjetaCarrusel-2{
+    background-color: white;
+    right: -250px;
+    position: relative;
+}
+/*tamaño de las letra,color y sus posiciones  */
+#texto-3{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    top: -255px;
+}
+
+/*tamaño de las letra,color y sus posiciones  */
+#texto-4{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -250px;
+    color:gray;
+}
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha y arriba está)*/
+.boton-clik{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position:relative;
+    right: -500px;
+    top: -200px;
+}
+/*color de la animacion del boton*/
+.boton-clik:hover{  
+        background-color: greenyellow; 
+        color: white;
+    
+    }
+
+/*Diseño de la imagen
+(tamaño, posicion: derecha, izquierda, arriba y abajo)*/
+#imagen-3{
+    height: 350px;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    right: -500px;
+}
+
+/*como sera el contenido de la tarjeta del carrusel
+(color de fondo, y su posicion)*/
+#tarjetaCarrusel-3{
+    background-color: white;
+    right: -250px;
+    position: relative;
+}
+
+/*tamaño de las letra,color y sus posiciones  */
+#texto-5{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -255px;
+}
+
+/*tamaño de las letra,color y sus posiciones  */
+#texto-6{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -250px;
+    color:gray;
+}
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion)*/
+.boton-clik{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    
+}
+/*color de la animacion del boton*/
+.boton-clik:hover{  
+
+        background-color: greenyellow; 
+        color: white;
+ }
+
+ /*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*margen de la derecha de los textos*/
+.txt{
+    margin-right: 100px;
+}
+
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.black {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+.botom{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content-2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*margen de la izquierda de los textos*/
+.txt-2{
+    margin-left: 250px;
+}
+
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.doce {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+.botom-2{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom-2:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content-3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*margen de la derecha de los textos*/
+.txt-3{
+    margin-right: 100px;
+}
+
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.cuatro {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+
+.botom-3{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom-3:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content-4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*margen de la izquierda de los textos*/
+.txt-4{
+    margin-left: 250px;
+}
+
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.solo {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+.botom-4{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom-4:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content-5 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*margen de la derecha de los textos*/
+.txt-5{
+    margin-right: 100px;
+}
+
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.verde {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+.botom-5{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom-5:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content-6{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*margen de la izquierda de los textos*/
+.txt-6{
+    margin-left: 250px;
+}
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.celu {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha esta)*/
+.botom-6{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom-6:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+/*Como se distribuira y
+ alineara el contenido de la tarjeta del carrusel */
+.content-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*margen de la derecha de los textos*/
+.txt-7{
+    margin-right: 100px;
+}
+
+/*Tamaño de la imagen, margen y el radio de sus bordes */
+.dona {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha está)*/
+.botom-7{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -210px;
+
+}
+/*color de la animacion del boton*/
+.botom-7:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+
+/*Diseño de la imagen
+(tamaño, posicion: derecha, izquierda, arriba y abajo)*/
+#imagen-4{
+    height: 350px;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    right: -500px;
+}
+
+
+/*como sera el contenido de la tarjeta del carrusel
+(color de fondo, y su posicion)*/
+#tarjetaCarrusel-4{
+    background-color: white;
+    right: -250px;
+    position: relative;
+}
+/*tamaño de las letra y sus posiciones */
+#texto-7{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -255px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha y arriba está)*/
+.boton-clik{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position:relative;
+    right: -500px;
+    top: -200px;
+}
+/*color de la animacion del boton*/
+.boton-clik:hover{  
+        background-color: greenyellow; 
+        color: white;
+    
+    }
+
+
+/*Diseño de la imagen
+(tamaño, posicion: derecha, izquierda, arriba y abajo)*/
+#imagen-5{
+    height: 350px;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    right: -500px;
+}
+
+
+/*como sera el contenido de la tarjeta del carrusel
+(color de fondo, y su posicion)*/
+#tarjetaCarrusel-5{
+    background-color: white;
+    right: -250px;
+    position: relative;
+}
+/*tamaño de las letra y sus posiciones */
+#texto-9{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -255px;
+}
+
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha  y arriba esta)*/
+.boton-clik{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position:relative;
+    right: -500px;
+    top: -200px;
+}
+/*color de la animacion del boton*/
+.boton-clik:hover{  
+        background-color: greenyellow; 
+        color: white;
+    
+    }
+
+/*Diseño de la imagen
+(tamaño, posicion: derecha, izquierda, arriba y abajo)*/
+#imagen-6{
+    height: 350px;
+    position: relative;
+    left: -100px;
+    bottom: -50px;
+    right: -500px;
+}
+
+/*como sera el contenido de la tarjeta del carrusel
+(color de fondo, y su posicion)*/
+#tarjetaCarrusel-6{
+    background-color: white;
+    right: -250px;
+    position: relative;
+}
+/*tamaño de las letra y sus posiciones */
+#texto-11{
+    position: relative;
+    right: -500px;
+    font-size: 26px;
+    top: -255px;
+}
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,)*/
+.boton-clik{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    
+}
+/*color de la animacion del boton*/
+.boton-clik:hover{  
+
+        background-color: greenyellow; 
+        color: white;
+    
+ }
+
+ /*como va a estar distribuidos los elementos y su alineacion*/
+.content-8{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*margen de los textos (los estilos como alineamiento o tamaño 
+estan el codigo de html)*/
+.txt-8{
+    margin-right: 100px;
+}
+/*Tamaño de la imagen , radio del borde y margen de la derecha*/
+.tips {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-right: -100px;
+}
+
+/*diseño del boton
+(color del fondo, bordes, color de las letras,
+ interaccion con el cursor, radio del borde, tiempo de la animacion,
+ ,posicion relativa y que tan a la derecha esta)*/
+.botom-8{
+
+    background-color: green;    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    right: -245px;
+
+}
+/*color de la animacion del boton*/
+.botom-8:hover{  
+
+    background-color: greenyellow; 
+    color: white;
+
+}
+
+
+
+/*ancho maximo del footer*/
+.contenido-f {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*fondo del footer y su relleno  */
+.footer{
+    background-color: rgb(45, 43, 43);
+    padding: 80px 0;
+}
+/*como se mostrara el entorno del footer en sí*/
+.footer-row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+/*ancho y relleno de los links del footer*/
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+/*diseño de los encabezados de las listas en el footer*/
+.footer-links h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    display: inline-block;
+    
+}
+
+
+/*diseño de los enlaces que estan en las listas*/
+.footer-links ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+    font-size: 15px;
+}
+
+/*Color de las animaciones de los enlaces en las listas*/
+.footer-links ul li a:hover{
+    color: greenyellow;
+    padding-left: 6px;
+}
+
+/*clase para ajustar como se veran los links del footer
+(alineado, tamaño, color, animacion, margen) */
+.social-links a{
+    align-content: end;
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    transition: all .5s ease;
+}
+
+/*clase para darle el color de la animacion
+a los links del footer */
+.social-links a:hover{
+    background-color: greenyellow;
+}
+
+
+/*id para darle color a los enlaces del ultimo parrafo*/
+#p-final a{
+    
+    color: white;
+}
+
+/*esta id es para modificar los colores, color de fondo 
+del boton de extravío*/
+#botom-final{
+
+    background-color: white;    
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    position: relative;
+    
+
+}
+/* esto para la animacion del boton de extravío*/
+#botom-final:hover{  
+
+    background-color: black; 
+    color: white;
+
+}
+
+/*esta id es para ajustar el tamaño y posicion del ícono de whatsapp */
+#wat{
+    height: 85px;
+    position: relative;
+    right: -1200px;
+    top: -25px;
+}
+
+
+/*Esta clase es para separar los botones de redes sociales de los otros
+enlces */
+.botones{ 
+    position: relative;
+    right: -400px;
+}
+
