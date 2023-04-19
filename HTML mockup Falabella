@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://kit.fontawesome.com/5021b48c87.js" crossorigin="anonymous"></script> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css>   ">
+</head>
+
+<body>
+    <!--Cabecera con enlaces-->
+    <main class="main">
+        <nav class="navegacion">
+            <a href="" >SEGUROS</a>
+            <a href="" >VIAJES</a>
+            <a href="" >FALABELLA</a>
+            <a href="" >SODIMAC</a>
+            <a href="" >TOTTUS</a>
+            <a href="" >HOMY</a>
+            <a href="" >LINIO</a>
+            <a href="" >FPAY</a>
+            <a href="" >FAZIL</a>
+            <!--Enlaces, sus estilos y sus posicion. Ademas de sus respectivas clases-->
+            <a style="position: relative; right: -590px;" href="" ><i class="fa-regular fa-circle-question fa-2xl"></i>  Ayuda y Contacto</a>
+            <a style="position: relative; right: -600px;" href=""><i class="fa-solid fa-location-dot fa-2xl"></i>  Oficinas y Cajeros</a>
+        </nav>
+        <!--Imagen-->
+        <br><img class="imagen_banner" src="img/cmr.png">
+        <!--Boton de la cabecera de la pagina-->
+        <button type="button" class="mi_cuenta">MI CUENTA</button>
+        <section class="banner">
+            <!--Enlaces con su ancho de letra-->
+            <br>
+            <a style="font-weight: 100px;" href=""> CUENTAS</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> TARJETAS CMR</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> AVANCE Y SÚPER AVANCE</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> CRÉDITOS</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> INVERSIONES</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> SEGUROS</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> DESCUENTOS</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> CMR PUNTOS</a><p>|</p>
+            <a style="font-weight: 100px;" href=""> PORTABILIDAD</a>
+            
+        </section>
+
+        <section>
+            <!--Imagen grande de la pagina-->
+            <img class="img_cmr" src="img/grande.png">
+        </section>
+
+        <section class="credito">
+            <!--seccion de la pagina en la que esta el input para agregar su rut-->
+            <p style="color: grey;" id="consumo">Simula tu Crédito de Consumo  <label for="rut"></label><input type="text" id="rut" name="rut" placeholder="Ingresa tu RUT" >         <button type="button" class="simular">SIMULAR</button></p>
+
+        </section>
+
+        <!--Seccion en la que estan el carrusel.
+        Clases, ids, textos, enlaces, imagenes y botones.
+        En los carruseles agregue iconos de flechas que saque de la pagina font Awesome-->
+       <div id="contentItemsCarrusel">
+        <div class="itemCarrusel" id="itemCarrusel-1">
+            <div class="tarjetaCarrusel" id="tarjetaCarrusel-1">
+                <section>
+                    <br><br><a href=""><img id="imagen-1" src="img/tarjeta.png"> </a>
+                    <br><br><p id="texto-1">Abre tu Cuenta Corriente 100% Online</p>
+                    <br><p id="texto-2">Haz click aquí y comienza a disfrutar de tus beneficios</p>
+                    <button type="button" class="boton-clik">CLICK AQUÍ</button>
+                </section>
+            </div>
+                <div class="flechasCarrusel">
+                    <a href="#itemCarrusel-3">
+                        <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180 fa-2xl" style="color: #2d2d2f;"></i>
+                    </a>
+                    <a href="#itemCarrusel-2">
+                        <i class="fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #2d2d2f;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="itemCarrusel" id="itemCarrusel-2">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-2">
+                    <section>
+                        <br><br><a href=""><img id="imagen-2" src="img/mujer1.png"> </a>
+                        <br><br><p id="texto-3">¡Tenemos Tasas Increíbles en Depósito a Plazo! </p>
+                        <br><p id="texto-4">Aprovecha, toma tu depósito a plazo (DAP)<br> presionando acá ¡Y sácale partido a tus ahrros¡ </p>
+                        <button type="button" class="boton-clik">CLICK AQUÍ</button>
+                    </section>
+                </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-1">
+                            <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180 fa-2xl" style="color: #2d2d2f;"></i>
+                        </a>
+                        <a href="#itemCarrusel-3">
+                            <i class="fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #2d2d2f;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel-3">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-3">
+                        <section>
+                            <br><br><a href=""><img id="imagen-3" src="img/mujer2.png"> </a>
+                            <br><br><p id="texto-5">¡Pide hoy tu Avance! </p>
+                            <br><p id="texto-6">Simula y pídelo 100% online.<br> ¡Obtenlo directo en tu cuenta! </p>
+                            <button type="button" class="boton-clik">CLICK AQUÍ</button>
+                        </section>
+                    </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-2">
+                                <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180 fa-2xl" style="color: #2d2d2f;"></i>
+                            </a>
+                            <a href="#itemCarrusel-1">
+                                <i class="fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #2d2d2f;"></i>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+       
+<br><br><br><br>
+        <!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+             <!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content">
+            <div class="txt">
+            <h1 style="text-align: center;">¡Ya comenzó el Black Friday en Banco <br> Falabella! </h1>
+            <br>
+            <p style="font-size: 25px; text-align: center;" >¡Encuentra descuentos y promociones increíbles en nuestro <br> Black Friday!</p>
+            <br>
+            <button style="align-self: center;"" type="button" class="botom">IR A BLACK FRIDAY</button>
+        </div>
+        <img class="black" src="img/black.png" >        
+        </div>
+<br><br><br><br>
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+             <!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-2">
+            
+            <img class="doce" src="img/doce.png">
+            <div class="txt-2">
+                <h1 style="text-align: center;">¡Comenzó el Black Friday! </h1>
+                <br>
+                <p style="font-size: 25px; text-align: center;" >Miles de Oportunidades únicas con tu CMR o Débito Banco <br> Falabella</p>
+                <br>
+                <button style="align-self: center;"" type="button" class="botom-2">¡REVÍSALAS AQUÍ!</button>
+            </div>
+        </div>
+<br><br><br><br>
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+<!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-3">
+            <div class="txt-3">
+            <h1 style="text-align: center;">Seguro Automotriz Full Cobertura</h1>
+            <br>
+            <p style="font-size: 25px; text-align: center;" >¡Contráta tu seguro y llévate 4 Cuotas Gratis por este Black <br>Friday!</p>
+            <br>
+            <button style="align-self: center;"" type="button" class="botom-3">CONTRÁTALO AQUÍ</button>
+        </div>
+        <img class="cuatro" src="img/cuatro.png" >        
+        </div>
+<br><br><br><br>
+
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+<!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-4">
+            
+            <img class="solo" src="img/solo.png">
+            <div class="txt-4">
+                <h1 style="text-align: center;">Abre tu CMR y Participa por una Gift Card </h1>
+                <br>
+                <p style="font-size: 25px; text-align: center;" >Sorteamos 8 giftcards de 1 millón entre los que abran su cmr <br> entre el 28 de marzo y el 4 de abril.</p>
+                <br>
+                <button style="align-self: center;"" type="button" class="botom-4">PÍDELA AQUÍ</button>
+            </div>
+        </div>
+<br><br><br><br><br>
+
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+<!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-5">
+            <div class="txt-5">
+            <h1 style="text-align: center;">Paga sin Clave tu CMR o la cuota de tu Crédito </h1>
+            <br>
+            <p style="font-size: 25px; text-align: center;" >Los Gennials pagamos de manera rápida</p>
+            <br>
+            <button style="align-self: center;"" type="button" class="botom-5">HAZLO AQUÍ</button>
+        </div>
+        <img class="verde" src="img/verde.png" >        
+        </div>
+<br><br><br><br>
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+<!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-6">
+            
+            <img class="celu" src="img/celu.png">
+            <div class="txt-6">
+                <h1 style="text-align: center;">¡Aliviana el pago de tu CMR! </h1>
+                <br>
+                <p style="font-size: 25px; text-align: center;" >Pasa a cuotas tus compras nacionales o internacionales<br>con tu CMR</p>
+                <br>
+                <button style="align-self: center;"" type="button" class="botom-6">VER MÁS</button>
+            </div>
+        </div>
+<br><br><br><br>
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+<!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-7">
+            <div class="txt-7">
+            <h1 style="text-align: center;">Disfruta un 40% de dcto todos los martes con<br>tu CMR o Débito Banco Falabella</h1>
+            <br>
+            <p style="font-size: 25px; text-align: center;" >¡Encuentra descuentos y promociones increíbles en nuestro <br> Black Friday!</p>
+            <br>
+            <button style="align-self: center;"" type="button" class="botom-7">IR A BLACK FRIDAY</button>
+        </div>
+        <img class="dona" src="img/dona.png" >        
+        </div>
+<br>
+         <!--Seccion en la que estan el carrusel.
+        Clases, ids, textos, enlaces, imagenes y botones.
+        En los carruseles agregue iconos de flechas que saque de la pagina font Awesome-->
+        <div id="contentItemsCarrusel">
+            <div class="itemCarrusel" id="itemCarrusel-4">
+                <div class="tarjetaCarrusel" id="tarjetaCarrusel-4">
+                    <section>
+                        <br><br><a href=""><img id="imagen-4" src="img/bip.png"> </a>
+                        <br><br><p id="texto-7">Inscribe tu bip! a tu CMR ¡Y<br>olvídate de las recargas!</p>
+                        <button type="button" class="boton-clik">CLICK AQUÍ</button>
+                    </section>
+                </div>
+                    <div class="flechasCarrusel">
+                        <a href="#itemCarrusel-6">
+                            <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180 fa-2xl" style="color: #2d2d2f;"></i>
+                        </a>
+                        <a href="#itemCarrusel-5">
+                            <i class="fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #2d2d2f;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrusel" id="itemCarrusel-5">
+                    <div class="tarjetaCarrusel" id="tarjetaCarrusel-5">
+                        <section>
+                            <br><br><a href=""><img id="imagen-5" src="img/pat.png"> </a>
+                            <br><br><p id="texto-9">¡Olvídate de pagar tus<br> cuentas! </p>
+                            <button type="button" class="boton-clik">CLICK AQUÍ</button>
+                        </section>
+                    </div>
+                        <div class="flechasCarrusel">
+                            <a href="#itemCarrusel-4">
+                                <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180 fa-2xl" style="color: #2d2d2f;"></i>
+                            </a>
+                            <a href="#itemCarrusel-6">
+                                <i class="fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #2d2d2f;"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrusel" id="itemCarrusel-6">
+                        <div class="tarjetaCarrusel" id="tarjetaCarrusel-6">
+                            <section>
+                                <br><br><a href=""><img id="imagen-6" src="img/paga.png"> </a>
+                                <br><br><p id="texto-11">Hazlo con tu Cuenta <br>Corriente! Ábrela 100%<br>online aquí! </p>
+                                <button type="button" class="boton-clik">CLICK AQUÍ</button>
+                            </section>
+                        </div>
+                            <div class="flechasCarrusel">
+                                <a href="#itemCarrusel-5">
+                                    <i class="fa-sharp fa-solid fa-circle-chevron-right fa-rotate-180 fa-2xl" style="color: #2d2d2f;"></i>
+                                </a>
+                                <a href="#itemCarrusel-4">
+                                    <i class="fa-sharp fa-solid fa-circle-chevron-right fa-2xl" style="color: #2d2d2f;"></i>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+<br><br><br>
+<!--Divs en los que estan ajustados los diferentes anuncios de la pagina
+             con sus respectivos encabezados, parrafos, imagenes y botones-->
+<!--Los encabezados, los parrafos y los botones estan con su propio estilos para poder alinearse 
+            y cambiar el tamaño-->
+        <div class="content-8">
+            <div class="txt-8">
+            <h1 style="text-align: center;">¡Eddu te ayuda! </h1>
+            <br>
+            <p style="font-size: 25px; text-align: center;" >Sigue a Eddu en Redes Sociales y ¡aprende tips para cuidar tu <br>plata! </p>
+            <br>
+            <button style="align-self: center;"" type="button" class="botom-8">APRENDE MÁS</button>
+        </div>
+        <img class="tips" src="img/tips.png" >        
+        </div>
+
+        <!--Divs para ajustar el footer con sus clases para el css-->
+        <footer class="footer">
+
+            <div class="contenido-f">
+
+                <div class="footer-row">
+                    <!--Enlaces de las listas para poder ordenar los enlaces -->
+                    <div class="footer-links"> 
+                        <h4>NUESTRO BANCO</h4>
+                        <ul>
+                            <li><a href="#">Quiénes somos</a></li>
+                            <li><a href="#">Directorio</a></li>
+                            <li><a href="#">Administración</a></li>
+                            <li><a href="#">Informacion institucional</a></li>
+                            <li><a href="#">Documentos Legales</a></li>
+                            <li><a href="#">Tasas y Tarifas</a></li>
+                            <li><a href="#">Trabaja con nosotros</a></li>
+                            <li><a href="#">licitación Seguro Hipotecario</a></li>
+                            <li><a href="#">FACTA</a></li>
+                            <li><a href="#">Canal de integridad</a></li>
+                            <li><a href="#">Proveedores Portabilidad Financiera</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-links"> 
+                        <h4>SERVICIO AL CLIENTE</h4>
+                        <ul>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                            <li><a href="#">Ayuda y contacto</a></li>
+                            <li><a href="#">Tutoriales Banco Falabella</a></li>
+                            <li><a href="#">Oficinas y Cajeros</a></li>
+                            <li><a href="#">Protocolo COVID-19</a></li>
+                            <li><a href="#">Portal Empresas</a></li>
+                            <li><a href="#">Defensoría del Cliente</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links"> 
+                        <!--Boton con un icono y sus estilos -->
+                        <button class="botones" style="align-self: center;"" type="button" id="botom-final"> <i class="fa-solid fa-phone fa-shake fa-sm" style="color: #232529;"></i>  Robo o Extravío</button>
+                        <!--Botones con iconos de las redes sociales (iconos de la pagina font awesome)-->
+                        <div class="social-links">
+                            <br>
+                            <a class="botones" href=""><i class="fa-brands fa-square-facebook fa-2xl" style="color: #edeff3;"></i></a>
+                            <a class="botones" href=""><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a>
+                            <a class="botones"  href=""><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                            <a class="botones" href=""><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <!--Parrafo del final del footer con su stilo agregado en el html para alinearlo y ponerle color y su tamaño-->
+                <p id="p-final" style="font-size: 11px; color: white;  text-align: center;">Ínformese sobre las entidades autorizadas para emitir Tarjetas de Pago en el país, 
+                    quienes se encuentran inscritas en los Registros de Emisores de Tarjetas que lleva la CMF, en
+                    <a href="">www.cmfchile.cl</a><br>Infórmse sobre la garantía estatal de los depósitos en su banco o en <a href="">cmfchile.cl</a> 
+                    © 2020 Banco Falabella. Todos los derechos reservados. Moneda 970, piso 7, Santiago.</p>
+                    <img id="wat" src="img/wat2.png" alt="hola">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
